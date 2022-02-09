@@ -1,0 +1,110 @@
+html { 
+    /* Source: https://css-tricks.com/perfect-full-page-background-image/ */
+    background: url("../images/San\ Francisco\ Bay.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    /* background-color: #fae1e1; */
+    /* background-image: url("../images/San\ Francisco\ Bay.jpg"); */
+    margin-top: 10;
+    
+}
+
+p, li, label {
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+
+a {
+    /* color: #7C99AC; */
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+}
+
+a:hover{
+    background-color: rgb(219, 212, 212);
+}
+
+.center{
+    text-align: center;
+}
+
+.rightAlign{
+    text-align: right;
+}
+
+.leftAlign{
+    text-align: left;
+}
+
+.nav{
+    text-align: center;
+    margin: 25px;
+}
+
+#aboutMeContainer{
+    display: flex;
+    width: 100%;
+}
+
+.imageContainer{
+    display:inline-block; 
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header {
+    display: flex;
+    color: #7C99AC;
+    font-size: xx-large;
+    font-family: Georgia, serif;
+}
+
+.header span{
+    background-color: rgba(240, 255, 255, 0.75);
+    padding-left: 10px;
+    width:700px;
+}
+
+#aboutMe{
+    display:inline-block; 
+    width: 100%;
+    height: 200px;
+}
+
+#devJourneyContainer, #restaurantContainer{
+    height: 400px;
+    width: 100%;
+}
+
+#restaurantContent, #travelContent{
+    display: flex;
+    width: 100%;
+}
+
+#travelImages{
+    text-align: center;
+}
+
+#formContainer{
+    text-align: center;
+}
+
+#subscribeHeader{
+    color: #7C99AC;
+    font-size: xx-large;
+    font-family: Georgia, serif;
+    text-align: center;
+}

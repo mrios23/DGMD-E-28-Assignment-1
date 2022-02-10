@@ -8,10 +8,7 @@ html {
 }
 
 body {
-    /* background-color: #fae1e1; */
-    /* background-image: url("../images/San\ Francisco\ Bay.jpg"); */
     margin-top: 10;
-    
 }
 
 p, li, label {
@@ -20,15 +17,19 @@ p, li, label {
 }
 
 a {
-    /* color: #7C99AC; */
     margin: 10px;
     color: white;
     text-decoration: none;
     font-family: Verdana, sans-serif;
+    font-weight: bold;
 }
 
 a:hover{
     background-color: rgb(219, 212, 212);
+}
+
+li {
+    margin: 10px;
 }
 
 .center{
